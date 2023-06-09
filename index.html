@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibi Chakkaravarthy Sethuraman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e09a89de7b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="innerMain row">
+
+            <div class="leftMain col-md-3">
+                <div class="inner">
+                    <div class="profilePicWrapper"><img src="images/me.jpg" alt="" class="profilePic"></div>
+                    <div class="mainName">
+                        <h2>Sibi Chakkaravarthy Sethuraman</h2>
+                    </div>
+                    <div>
+                        <a target="_blank" href="mailto:sb.sibi@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/sibi-chakkaravarthy-sethuraman-7aba651a/"><i class="fab fa-linkedin-in"></i></a>
+                        <a target="_blank" href="https://github.com/sibichakkaravarthy"><i class="fab fa-github"></i></a>
+                    </div>
+                    <div>
+                        <a href="pdfs/Resume.pdf" class="btn btn-primary" download>Download CV</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rightMain col-md-9 transition-swipeup" id="swup">
+                <div class="homeMain home-sm">
+                    <div class="inner">
+                        <div class="profilePicWrapper"><img src="images/me.jpg" alt="" class="profilePic"></div>
+                        <h1 class="homeHeading">Sibi Chakkaravarthy Sethuraman</h1>
+                        <div class="homeDesc">Founder & CEO of <font color="#000080">Digital Fortress Private Limited and Flick Analytics</font></div>
+                        <div class="homeDesc">Coordinator, Centre of Excellence, Artificial Intelligence and Robotics (AIR) & Associate Professor at Vellore Institute of Technology - Andhra Pradesh (VIT-AP) University , Amaravati, India</div>
+
+                        <div>
+                            <a target="_blank" href="mailto:sb.sibi@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/sibi-chakkaravarthy-sethuraman-7aba651a/"><i class="fab fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://github.com/sibichakkaravarthy"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div>
+                            <a href="pdfs/Resume.pdf" class="btn btn-primary" download>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="homeMain home-bg">
+
+                    <h1 class="homeHeading">Sibi Chakkaravarthy Sethuraman</h1>
+                    <div class="homeDesc">Founder of <a href="https://mukham.in/"><font color="#FFFF00">Digital Fortress Private Limited</font></a> and <a href="https://flickanalytics.com/"><font color="#FFFF00">Flick Analytics</font></a></div>
+                    <div class="homeDesc">Coordinator, Artificial Intelligence and Robotics (AIR) Research Center <br> 
+                        & <br> Associate Professor at Vellore Institute of Technology - Andhra Pradesh (VIT-AP) University , Amaravati, India</div>
+                </div>
+
+            </div>
+            <div class="sideMenu">
+                <div class="menuItem" id="mm0">
+                    <a href="/index.html"><i class="fas fa-house-user"></i></a>
+                </div>
+                <div class="menuItem" id="mm1"><a href="/aboutMe.html"><i class="fas fa-address-card"></i></i></a></div>
+                <div class="menuItem" id="mm2"><a href="/researchGrant.html"><i class="fas fa-shield-alt"></i></a></div>
+                <div class="menuItem" id="mm3"><a href="/researchProjects.html"><i class="fas fa-file-code"></i></a></div>
+                <div class="menuItem" id="mm4"><a href="/publications.html"><i class="fas fa-book"></i></a></div>
+                <div class="menuItem" id="mm5"><a href="/gallery.html"><i class="fas fa-images"></i></a></div>
+            </div>
+            <div class="sideMenu2">
+                <div class="menuItem" id="m1"><a href="/aboutMe.html"><i class="fas fa-chevron-right"></i></i></a></div>
+                <div class="menuItem" id="m2"><a href="/gallery.html"><i class="fas fa-chevron-left"></i></i></i></a></div>
+            </div>
+            <div class="bottomMenu">
+                <div class="menuItem col-sm-2" id="mm0">
+                    <a href="/index.html"><i class="fas fa-house-user"></i></a>
+                </div>
+                <div class="menuItem col-sm-2" id="mm1"><a href="/aboutMe.html"><i class="fas fa-address-card"></i></i></a></div>
+                <div class="menuItem col-sm-2" id="mm2"><a href="/researchGrant.html"><i class="fas fa-shield-alt"></i></a></div>
+                <div class="menuItem col-sm-2" id="mm3"><a href="/researchProjects.html"><i class="fas fa-file-code"></i></a></div>
+                <div class="menuItem col-sm-2" id="mm4"><a href="/publications.html"><i class="fas fa-book"></i></a></div>
+                <div class="menuItem col-sm-2" id="mm5"><a href="/gallery.html"><i class="fas fa-images"></i></a></div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        function update() {
+            console.log('up');
+            document.getElementById('m1').innerHTML = '<a href="/aboutMe.html"><i class="fas fa-chevron-right"></i></i></a>';
+            document.getElementById('m2').innerHTML = '<a href="/trainings.html"><i class="fas fa-chevron-left"></i></i></i></a>';
+        }
+    </script>
+    </div>
+    <script src="js/swup.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
